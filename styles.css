@@ -1,0 +1,42 @@
+body {
+  
+}
+
+#navbar {
+    position: fixed;
+}
+
+#welcome-section {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+}
+
+#projects {
+  
+}
+
+.project-tile {
+ 
+  
+}
+
+#contact {
+
+}
+
+#profile-link {
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+
+    body {
+  background-color: turquoise;
+    }
+
+}
