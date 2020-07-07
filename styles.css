@@ -1,9 +1,25 @@
 body {
-  
+  text-align: center;
+  background-color:#00008B;
 }
 
 #navbar {
+    display: flex;
+    justify-content: flex-end;
     position: fixed;
+    top: 0;
+    left: -8px;
+    width: 100%;
+    background-color:#00008B;
+    
+}
+
+.nav-list {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    
 }
 
 #welcome-section {
@@ -11,10 +27,30 @@ body {
     margin-top: 0px;
     display: block;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #89cff0;
+    
 }
 
+.h1 {
+    font-size: 75px;
+}
+
+.p {
+font-size: 50px;
+
+}
 #projects {
-  
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
 }
 
 .project-tile {
@@ -23,7 +59,14 @@ body {
 }
 
 #contact {
-
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d3d3d3;
 }
 
 #profile-link {
@@ -35,8 +78,13 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) { 
 
-    body {
-  background-color: turquoise;
+.h1 {
+font-size: 45px;
+}
+.p {
+    font-size: 25px;
+    
     }
+
 
 }
